@@ -10,7 +10,7 @@ function App() {
   })
 
   const [projects, setProjects] = useState([]);
-  const [value, setValue] = useState({title:"", description:"", dueDate:"", task:[]});
+  const [value, setValue] = useState({title:"", description:"", dueDate:"", task:""});
 
   // 處理Create project的狀態
   function handleCreate(){
@@ -47,7 +47,7 @@ function App() {
       }))
     }
 
-    setValue({title:"", description:"", dueDate:"", task:[]});
+    setValue({title:"", description:"", dueDate:"", task:""});
   }
   console.log(projects);
 

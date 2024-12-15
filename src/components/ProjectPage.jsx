@@ -1,4 +1,4 @@
-import { useRef, useState } from "react";
+import { useRef } from "react";
 import Modal from "./Modal";
 import Button from "./Button";
 import Tasks from "./Tasks";
